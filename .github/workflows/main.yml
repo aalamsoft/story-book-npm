@@ -15,7 +15,7 @@ jobs:
       - name: Build app
         run: npm run build 
       - name: Semantic release
-      - run: npx semantic-release
+        run: npx semantic-release
         env:
           GITHUB_TOKEN: "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"
           NPM_TOKEN: "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"
