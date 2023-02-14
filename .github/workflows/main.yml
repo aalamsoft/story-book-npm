@@ -22,5 +22,5 @@ jobs:
       - name: Semantic release
         run: npx semantic-release
         env:
-          GITHUB_TOKEN: "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"
+          GITHUB_TOKEN: "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"
           NPM_TOKEN: "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"
