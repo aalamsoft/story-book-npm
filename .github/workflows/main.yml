@@ -1,6 +1,11 @@
 name: Semantic release 
-
-on: push
+"on":
+  push:
+    branches:
+      - master
+      - next
+      - beta
+      - "*.x"
 jobs:
   publish:
     runs-on: ubuntu-latest
